@@ -1,5 +1,5 @@
 # iot-projects
-A sample of my coursework from 95-733 Internet of Things
+A sample of my coursework from 95-733 Internet of Things -> Ajax, websockets, Java, MQTT
 
 ### About the projects
 - Selected work from two sections of the course: Ajax/websockets and MQTT/PubSub
