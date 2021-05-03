@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Argon MQTT Subscriber</title>
+        <!-- Some CSS rules to format the code -->
+        <style>
+            table {
+                border: 1px solid gray;
+            }
+            td {
+                border: 1px solid gray;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Argon MQTT Subscriber Client</h1>
+        <p>Used to take attendance</p>
+
+        <!-- Table element that will be used to display connections -->
+        <table id="argon-table"></table>
+
+        <!-- MQTT connection script from IBM -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+        <!-- Custom JS script with websockets -->
+        <script src="subscriberClient.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Rolling Monitor</title>
+</head>
+<body>
+    <h1>Dice Rolling Client Monitor</h1>
+
+    <!-- Gauge charts for dice rolls will go here -->
+    <h3>Current Dice Rolls</h3>
+    <div id="roll-charts" style="width: 400px; height: 120px;"></div>
+
+    <!-- Gauge charts for sum and average will go here -->
+    <h3>Current Sum and Average Sum</h3>
+    <div id="avg-charts" style="width: 400px; height: 120px;"></div>
+
+    <!-- Line chart for frequency of sums will go here -->
+    <h3>Sum Frequency Chart</h3>
+    <div id="freq-chart" style="width: 600px; height: 240px;"></div>
+
+    <!-- Script to help load Google visualization tools -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- Script to handle drawing of charts -->
+    <script type="text/javascript" src="drawCharts.js"></script>
+    <!-- MQTT connection script from IBM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+    <!-- Script to handle websocket connection -->
+    <script type="text/javascript" src="monitorClient.js"></script>
+</body>
+</html>
